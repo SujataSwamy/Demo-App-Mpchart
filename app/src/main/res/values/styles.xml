@@ -1,0 +1,1290 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Title1TextLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title2TextLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display1TextLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title3TextLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display2TextLeftStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader1TextLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeadlineTextLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader2TextLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ParagraphTextLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small2TextLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CaptionTextLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small1TextLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display1TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title1TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display2TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title2TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title3TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader1TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader2TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeadlineTextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CaptionTextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ParagraphTextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small1TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small2TextCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display1TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title2TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title1TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display2TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title3TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader1TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Subheader2TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CaptionTextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ParagraphTextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeadlineTextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small1TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Small2TextRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Display1GeneralLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title2GeneralLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title1GeneralLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title3GeneralLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader1GeneralLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader2GeneralLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="ParagraphGeneralLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small1GeneralLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="CaptionGeneralLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small2GeneralLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Display1GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Display2GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title1GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title2GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title3GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader1GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader2GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="HeadlineGeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="ParagraphGeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small1GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small2GeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Display1GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Display2GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="CaptionGeneralCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title1GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title2GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Title3GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader1GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Subheader2GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="HeadlineGeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="ParagraphGeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="CaptionGeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small2GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Small1GeneralRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="Display1SuccessLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display2SuccessLeftStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title2SuccessLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title1SuccessLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader1SuccessLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title3SuccessLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader2SuccessLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="ParagraphSuccessLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="CaptionSuccessLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="HeadlineSuccessLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small1SuccessLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small2SuccessLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display1SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title1SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display2SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title2SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader2SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title3SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader1SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="HeadlineSuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="ParagraphSuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small2SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small1SuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display1SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display2SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="CaptionSuccessCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title1SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Title2SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader1SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Subheader2SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="HeadlineSuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="ParagraphSuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="CaptionSuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small1SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Small2SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display1ErrorLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title1ErrorLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title2ErrorLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title3ErrorLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title3SuccessRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Display2ErrorLeftStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader2ErrorLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader1ErrorLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="HeadlineErrorLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="ParagraphErrorLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small1ErrorLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small2ErrorLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Display1ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Display2ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title1ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title2ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title3ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader1ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader2ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="HeadlineErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="ParagraphErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small1ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small2ErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Display1ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Display2ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title1ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title2ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Title3ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader1ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Subheader2ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="HeadlineErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="ParagraphErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small2ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small1ErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Display1BackgroundLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display2BackgroundLeftStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title1BackgroundLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title2BackgroundLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title3BackgroundLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader1BackgroundLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader2BackgroundLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="HeadlineBackgroundLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="ParagraphBackgroundLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="CaptionBackgroundLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small1BackgroundLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small2BackgroundLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display1BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title1BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display2BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title3BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title2BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader1BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="HeadlineBackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader2BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="ParagraphBackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="CaptionBackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small1BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small2BackgroundCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display1BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display2BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title1BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title2BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Title3BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader1BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="HeadlineBackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Subheader2BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="ParagraphBackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="CaptionBackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small1BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Small2BackgroundRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/midnight</item>
+    </style>
+
+    <style name="Display1StageLeftStyle">
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Display2StageLeftStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title1StageLeftStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title2StageLeftStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title3StageLeftStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader1StageLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader2StageLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="HeadlineStageLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="ParagraphStageLeftStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="CaptionStageLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Small1StageLeftStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Small2StageLeftStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Display2StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Display1StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title1StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title2StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title3StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader1StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader2StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="HeadlineStageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="ParagraphStageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="CaptionStageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Small2StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Small1StageCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Display1StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">58sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Display2StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title1StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title2StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Title3StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader1StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Subheader2StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="HeadlineStageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="ParagraphStageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="CaptionStageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="Small1StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="CaptionErrorLeftStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="Small2StageRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/slate_grey</item>
+    </style>
+
+    <style name="CaptionErrorCenterStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="CaptionErrorRightStyle">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/grapefruit</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.17</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+
+</resources>

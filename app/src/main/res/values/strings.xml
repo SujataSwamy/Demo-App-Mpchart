@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Demo Application</string>
+    <string name="text_buy">Buy</string>
+    <string name="text_sell">Sell</string>
+    <string name="text_watch">Watch</string>
+    <string name="bitcoin">BITCOIN</string>
+    <string name="btc_usd">BTC/USD</string>
+    <string name="gdax">GDAX</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="volume">Volume</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="past_day">Past day</string>
+    <string name="bid">BID</string>
+    <string name="ask">ASK</string>
+    <string name="changes">CHANGES</string>
+    <string name="high_val">HIGH</string>
+    <string name="low_val">LOW</string>
+</resources>
