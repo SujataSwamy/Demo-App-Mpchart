@@ -29,7 +29,9 @@ before_install:
 - echo y | sdkmanager "ndk-bundle"
 before_script:
 - env
--  ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
+
+script:
+  - ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
     - ./gradlew build assembleDebug
     - gcloud components update
     - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
