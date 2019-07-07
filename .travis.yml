@@ -1,54 +1,37 @@
-﻿# This file specifies the programming language used, the desired building and
-# testing environment (including dependencies which must be installed before
-# the software can be built and tested), and various other parameters.
-
-# which language/platform is used
 language: android
-# JDK version
 jdk:
-  - oraclejdk8
-
-# root permission required?
+- oraclejdk8
 sudo: required
 dist: trusty
-
-# Environment variables
 env:
   global:
-    - BRANCH_NAME=master
-
-# android components required to build code
+  - BRANCH_NAME=master
 android:
   components:
-    - tools
-    - platform-tools
-    - build-tools-27.0.3
-    # Note that the tools section appears twice on purpose as it’s required to get the newest Android
-    # SDK tools, like SDK manager which is used to download NDK bundle
-    - tools
-    - android-24
-    - extra-android-m2repository
-    - extra-google-m2repository
-    - extra-google-google_play_services
-
-# clean up old stuff before we get started
+  - tools
+  - platform-tools
+  - build-tools-27.0.3
+  - tools
+  - android-24
+  - extra-android-m2repository
+  - extra-google-m2repository
+  - extra-google-google_play_services
 before_cache:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-
-# cache directories to use
+- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 cache:
   directories:
-    - "$HOME/.gradle/caches/"
-    - "$HOME/.gradle/wrapper/"
-
-# Configurations to set up Android NDK
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
 before_install:
-  - echo y | sdkmanager "ndk-bundle"
-
-# Build script - which configs and creates the builds
+- openssl aes-256-cbc -K $encrypted_783d9be09488_key -iv $encrypted_783d9be09488_iv
+  -in travis-ci-demo-4efee-0e9f1d0f0fd2.json.enc -out travis-ci-demo-4efee-0e9f1d0f0fd2.json
+  -d
+- echo y | sdkmanager "ndk-bundle"
 before_script:
-  - env
-
-script: "./build_cc_app.sh"
+- env
+-  ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
+    - ./gradlew build assembleDebug
+    - gcloud components update
+    - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
 
 
