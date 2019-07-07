@@ -15,6 +15,7 @@ android:
   - tools
   - platform-tools
   - build-tools-27.0.3
+  - android-21
   - android-24
 #  - build-tools-$ANDROID_BUILD_TOOLS
 #  - android-$ANDROID_API
