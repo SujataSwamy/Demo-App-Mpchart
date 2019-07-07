@@ -15,11 +15,10 @@ android:
   - tools
   - platform-tools
   - build-tools-27.0.3
-  - tools
   - android-24
-  - build-tools-$ANDROID_BUILD_TOOLS
-  - android-$ANDROID_API
-  - android-$EMULATOR_API_LEVEL
+#  - build-tools-$ANDROID_BUILD_TOOLS
+#  - android-$ANDROID_API
+#  - android-$EMULATOR_API_LEVEL
   - extra-android-m2repository
   - extra-google-m2repository
   - extra-google-google_play_services
