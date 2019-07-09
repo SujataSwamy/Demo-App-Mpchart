@@ -61,9 +61,9 @@ before_script:
     - adb shell input keyevent 82 &
     # gcloud
     - gcloud version || true
-    - if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
+ #   - if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
     # Add gcloud to $PATH
-    - source /home/travis/google-cloud-sdk/path.bash.inc
+  @  - source /home/travis/google-cloud-sdk/path.bash.inc
     - gcloud version
     # Add gcloud auth
     - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
