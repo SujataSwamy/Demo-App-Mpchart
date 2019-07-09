@@ -53,6 +53,7 @@ before_install:
   - ./gradlew dependencies || true
 
 before_script:
+
     - env
     - android list sdk --extended --no-ui --all
     - echo "y" | android update sdk -a --no-ui --filter sys-img-armeabi-v7a-android-21,sys-img-x86_64-android-21
