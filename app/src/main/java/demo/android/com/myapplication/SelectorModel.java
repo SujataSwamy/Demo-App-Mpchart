@@ -1,3 +1,4 @@
+/*
 package demo.android.com.myapplication;
 
 public class SelectorModel {
@@ -21,3 +22,4 @@ public class SelectorModel {
     boolean isSelected;
     String value;
 }
+*/

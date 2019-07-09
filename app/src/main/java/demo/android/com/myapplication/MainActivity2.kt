@@ -1,3 +1,4 @@
+/*
 package demo.android.com.myapplication
 
 import android.os.Bundle
@@ -299,3 +300,4 @@ class MainActivity2 : AppCompatActivity(),ChartValueAdapter2.AdapterCallback2 {
         return random
     }
 }
+*/
