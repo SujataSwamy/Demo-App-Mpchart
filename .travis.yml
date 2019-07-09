@@ -63,18 +63,18 @@ before_script:
     - android-wait-for-emulator
     - adb shell input keyevent 82 &
     # gcloud
-    - gcloud version || true
-  #  - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
+  #  - gcloud version || true
+   # - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
     # Add gcloud to $PATH
-    - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
-    - gcloud version
+ #   - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
+  #  - gcloud version
     # Add gcloud auth
     - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
 
-script:
-    - ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
-    - ./gradlew build assembleDebug
-    - gcloud components update
-    - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
+script:"./firebase.sh"
+#    - ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
+ #   - ./gradlew build assembleDebug
+  #  - gcloud components update
+   # - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
 
 
