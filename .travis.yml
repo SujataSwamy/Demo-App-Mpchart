@@ -64,7 +64,7 @@ before_script:
     - adb shell input keyevent 82 &
     # gcloud
     - gcloud version || true
-    - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
+  #  - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
     # Add gcloud to $PATH
     - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
     - gcloud version
