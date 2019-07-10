@@ -72,7 +72,7 @@ before_script:
     - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
 
 script:
-  ./gradlew build assembleDebug
+
   "./firebase1.sh"
 #    - ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
  #   - ./gradlew build assembleDebug
