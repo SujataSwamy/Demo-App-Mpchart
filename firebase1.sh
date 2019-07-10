@@ -38,8 +38,13 @@ gcloud auth activate-service-account --key-file /tmp/travis-ci-demo-4efee-0e9f1d
 
 
 # List available options for logging purpose only (so that we can review available options)
+:x
+
 gcloud firebase test android models list  
 gcloud firebase test android versions list
 
 
 gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
+ud components update
+  - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
+
