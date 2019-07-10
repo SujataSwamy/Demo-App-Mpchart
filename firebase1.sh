@@ -13,6 +13,7 @@
   -d
 
 
+
 # Firebase setup
 wget --quiet --output-document=/tmp/google-cloud-sdk.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz  
 mkdir -p /opt  
@@ -32,7 +33,7 @@ gcloud config set project travis-ci-demo-4efee
 
 
 # Activate cloud credentials
-gcloud auth activate-service-account --key-file /tmp/travis-ci-demo-4efee-0e9f1d0f0fd2.json
+gcloud auth activate-service-account --key-file /tmp/travis-ci-demo-4efee-a0e3092d8cd2.json
 
 
 
