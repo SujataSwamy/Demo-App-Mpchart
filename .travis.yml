@@ -65,9 +65,11 @@ before_script:
   #  - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
     # Add gcloud to $PATH
 #    - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
-#    - gcloud version
+    - gcloud version
     # Add gcloud auth
-  #  - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
+    - gcloud auth login
+    - gcloud config set account sujatagopalswamy@gmail.com
+    - gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=/Users/sujataswamy/Downloads/travis-ci-demo-4efee-a0e3092d8cd2 --project=travis-ci-demo-4efee
 
 script: "./firebase1.sh"
 
