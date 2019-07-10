@@ -42,10 +42,6 @@ cache:
   - "$HOME/.gradle/wrapper/"
 before_install:
   - openssl aes-256-cbc -K $encrypted_783d9be09488_key -iv $encrypted_783d9be09488_iv -in travis-ci-demo-4efee-a0e3092d8cd2.json.enc -out travis-ci-demo-4efee-a0e3092d8cd2.json -d
-
-  #- openssl aes-256-cbc -K $encrypted_783d9be09488_key -iv $encrypted_783d9be09488_iv
-#  -in travis-ci-demo-4efee-0e9f1d0f0fd2.json.enc -out travis-ci-demo-4efee-0e9f1d0f0fd2.json
- # -d
 - echo y | sdkmanager "ndk-bundle"
 - yes | sdkmanager "platforms;android-28"
   - mkdir "$ANDROID_HOME/licenses" || true
@@ -74,9 +70,4 @@ before_script:
     - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
 
 script: "./firebase1.sh"
-#    - ./gradlew clean build connectedCheck -PdisablePreDex --stacktrace
- #   - ./gradlew build assembleDebug
-  #  - gcloud components update
-   # - gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
-
 
