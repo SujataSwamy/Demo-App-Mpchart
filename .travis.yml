@@ -67,7 +67,7 @@ before_script:
 #    - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
 #    - gcloud version
     # Add gcloud auth
-    - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
+  #  - gcloud auth activate-service-account traviscidemo@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-0e9f1d0f0fd2.json --project=travis-ci-demo-4efee
 
 script: "./firebase1.sh"
 
