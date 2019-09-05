@@ -22,3 +22,4 @@ class ExampleInstrumentedTest {
         assertEquals("demo.android.com.myapplication", appContext.packageName)
     }
 }
+
