@@ -35,7 +35,7 @@ gcloud config set project travis-ci-demo-4efee
 # Activate cloud credentials
 
 
-gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=/Users/sujataswamy/Downloads/travis-ci-demo-4efee-a0e3092d8cd2.json   
+gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-a0e3092d8cd2.json
 
 
 
