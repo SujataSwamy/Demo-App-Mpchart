@@ -1,4 +1,3 @@
-/*
 package demo.android.com.myapplication
 
 import android.content.Intent
@@ -322,4 +321,3 @@ class MainActivity : AppCompatActivity(),
     }
 }
 
-*/

@@ -1,4 +1,3 @@
-/*
 package demo.android.com.myapplication;
 
 import android.content.Context;
@@ -101,4 +100,4 @@ public class ChartValueAdapter extends RecyclerView.Adapter<ChartValueAdapter.My
     public int getItemCount() {
         return modelList.size();
     }
-}*/
+}
