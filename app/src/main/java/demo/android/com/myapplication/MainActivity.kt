@@ -6,6 +6,7 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.text.format.DateUtils
 import android.widget.Button
 import com.github.mikephil.charting.charts.LineChart
 import com.github.mikephil.charting.components.XAxis
@@ -13,6 +14,13 @@ import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
+import android.support.v4.app.SupportActivity
+import android.support.v4.app.SupportActivity.ExtraData
+import android.support.v4.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import android.util.Log
+
+
 
 class MainActivity : AppCompatActivity(),
     ChartValueAdapter.AdapterCallback {
@@ -55,6 +63,11 @@ class MainActivity : AppCompatActivity(),
         defineChart()
         showData(randomData())
         setRecyclerViewData()
+
+        val oldTimestamp = 1573849034839L
+
+//        DateUtils.getRelativeTimeSpanString(oldTimestamp);
+        Log.d("==Date",DateUtils.getRelativeTimeSpanString(oldTimestamp,System.currentTimeMillis(),DateUtils.MINUTE_IN_MILLIS).toString());
     }
 
     private fun setRecyclerViewData() {

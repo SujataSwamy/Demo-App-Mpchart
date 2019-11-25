@@ -6,34 +6,17 @@ dist: trusty
 env:
   global:
   - BRANCH_NAME=master
-#  - ANDROID_API=21
-#  - EMULATOR_API=28
   - ANDROID_BUILD_TOOLS=28.0.3
-#  - ADB_INSTALL_TIMEOUT=5
-   # - HOME=/Users/sujataswamy/Downloads
 android:
   components:
   - tools
   - platform-tools
- # - build-tools-28.0.3
-  - android-21
   - android-24
   - android-28
   - build-tools-$ANDROID_BUILD_TOOLS
-#  - android-$ANDROID_API
-#  - android-$EMULATOR_API_LEVEL
   - extra-android-m2repository
   - extra-google-m2repository
   - extra-google-google_play_services
-
- # - addon-google_apis-google-19
- # - sys-img-armeabi-v7a-addon-google_apis-google-$ANDROID_API_LEVEL
-  #- sys-img-armeabi-v7a-addon-google_apis-google-$EMULATOR_API_LEVEL
-
- #licenses:
-  #    - android-sdk-preview-license-.+
-   #   - android-sdk-license-.+
-    #  - google-gdk-license-.+
 
 before_cache:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
@@ -54,20 +37,8 @@ before_install:
 before_script:
 
     - env
-  #  - android list sdk --extended --no-ui --all
- #   - echo "y" | android update sdk -a --no-ui --filter sys-img-armeabi-v7a-android-21,sys-img-x86_64-android-21
- #   - android list targets
-  #  - echo no | android create avd --force -n test -t android-21 --abi default/armeabi-v7a
- #chmo   - emulator -avd test -no-skin -no-audio -no-window &
-  #  - android-wait-for-emulator
-   # - adb shell input keyevent 82 &
-    # gcloud
     - gcloud version || true
-  #  - if [ ! -d "/Users/sujataswamy/Downloads/google-cloud-sdk/bin" ]; then rm -rf /Users/sujataswamy/Downloads/google-cloud-sdk; export $CLOUDSDK_CORE_DISABLE_PROMPTS; curl https://sdk.cloud.google.com | bash; fi
-    # Add gcloud to $PATH
-#    - source /Users/sujataswamy/Downloads/google-cloud-sdk/path.bash.inc
     - gcloud version
-    # Add gcloud auth
 
     - gcloud config set account sujata.swamy@airfi.aero
     - gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-a0e3092d8cd2.json --project=travis-ci-demo-4efee
