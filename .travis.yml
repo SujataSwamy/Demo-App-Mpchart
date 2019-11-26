@@ -9,8 +9,8 @@ env:
   - ANDROID_BUILD_TOOLS=28.0.3
 android:
   components:
-  - tools
-  - platform-tools
+ # - tools
+  #- platform-tools
   - android-28
   - build-tools-$ANDROID_BUILD_TOOLS
   - extra-android-m2repository
