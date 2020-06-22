@@ -45,5 +45,5 @@ before_script:
 
 script:
 
-  "./firebase1.sh"
+#  "./firebase1.sh"
 
