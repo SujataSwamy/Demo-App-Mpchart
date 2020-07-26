@@ -1,33 +1,33 @@
 language: android
 jdk:
 
-- oraclejdk8
+  - oraclejdk8
 sudo: required
 dist: trusty
 env:
   global:
-  - BRANCH_NAME=master
-  - ANDROID_BUILD_TOOLS=28.0.3
+    - BRANCH_NAME=master
+    - ANDROID_BUILD_TOOLS=28.0.3
 android:
   components:
- # - tools
-  #- platform-tools
-  - android-28
-  - build-tools-$ANDROID_BUILD_TOOLS
-#  - extra-android-m2repository
-#  - extra-google-m2repository
-  - extra-google-google_play_services
+    # - tools
+    #- platform-tools
+    - android-28
+    - build-tools-$ANDROID_BUILD_TOOLS
+    #  - extra-android-m2repository
+    #  - extra-google-m2repository
+    - extra-google-google_play_services
   licenses:
-   - '.+'
+    - '.+'
 before_cache:
-- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 cache:
   directories:
-  - "$HOME/.gradle/caches/"
-  - "$HOME/.gradle/wrapper/"
+    - "$HOME/.gradle/caches/"
+    - "$HOME/.gradle/wrapper/"
 before_install:
-- openssl aes-256-cbc -K $encrypted_783d9be09488_key -iv $encrypted_783d9be09488_iv -in travis-ci-demo-4efee-a0e3092d8cd2.json.enc -out travis-ci-demo-4efee-a0e3092d8cd2.json -d
-- echo y | sdkmanager "ndk-bundle"
+  - openssl aes-256-cbc -K $encrypted_783d9be09488_key -iv $encrypted_783d9be09488_iv -in travis-ci-demo-4efee-a0e3092d8cd2.json.enc -out travis-ci-demo-4efee-a0e3092d8cd2.json -d
+  - echo y | sdkmanager "ndk-bundle"
 #- yes | sdkmanager "platforms;android-28"
 #  - mkdir "$ANDROID_HOME/licenses" || true
 #  - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
@@ -35,32 +35,16 @@ before_install:
 #  - chmod +x gradlew
 #  - ./gradlew dependencies || true
 
-#before_script:
-#
-#    - env
-#    - gcloud version || true
-#    - gcloud version
-#
-#    - gcloud config set account sujata.swamy@airfi.aero
-#    - gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-a0e3092d8cd2.json --project=travis-ci-demo-4efee
-
-#script:
-#
-#  "./firebase1.sh"
-
 before_script:
-  # Download and install gcloud cli to run firebase test commands
-  - wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-218.0.0-linux-x86.tar.gz
-  - tar zxf google-cloud-sdk-218.0.0-linux-x86.tar.gz google-cloud-sdk
-  - echo n | ./google-cloud-sdk/install.sh
-  - ./google-cloud-sdk/bin/gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-a0e3092d8cd2.json --project=travis-ci-demo-4efee
-  - ./google-cloud-sdk/bin/gcloud config set account sujata.swamy@airfi.aero
-  - echo y | ./google-cloud-sdk/bin/gcloud components update
-  - echo y | ./google-cloud-sdk/bin/gcloud components install beta
+
+  - env
+  - gcloud version || true
+  - gcloud version
+
+  - gcloud config set account sujata.swamy@airfi.aero
+  - gcloud auth activate-service-account travis-ci-demo-2@travis-ci-demo-4efee.iam.gserviceaccount.com --key-file=travis-ci-demo-4efee-a0e3092d8cd2.json --project=travis-ci-demo-4efee
+
 script:
-  - chmod +x gradlew
-  - ./gradlew assembleDebug
-  - ./gradlew assembleDebugAndroidTest
-  # Run test on a Pixel 2 with Android 28 in english and in portrait
-  - ./google-cloud-sdk/bin/gcloud beta firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
-#    gcloud firebase test android run --app app/build/outputs/apk/debug/app-debug.apk --type=robo --device model=Nexus4,version=19
+
+  "./firebase1.sh"
+
