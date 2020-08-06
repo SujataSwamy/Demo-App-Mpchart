@@ -39,6 +39,7 @@ before_script:
 
   - env
   - gcloud version || true
+
   - gcloud version
 
   - gcloud config set account sujata.swamy@airfi.aero
